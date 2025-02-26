@@ -911,6 +911,12 @@
         // }
         taskOptions: [
             {
+                key: 'user-agent',
+                category: 'global',
+                canUpdate: 'new',
+                showHistory: true
+            },
+            {
                 key: 'dir',
                 category: 'global',
                 canUpdate: 'new',
