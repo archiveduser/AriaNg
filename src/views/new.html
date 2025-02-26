@@ -11,14 +11,6 @@
                 <li class="divider"></li>
                 <li class="nav-toolbar">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-folder-open-o fa-1_1x"></i>
-                        </button>
-                        <ul class="dropdown-menu right-align">
-                            <li><a class="pointer-cursor" ng-click="openTorrent()" translate>Open Torrent File</a></li>
-                            <li><a class="pointer-cursor" ng-click="openMetalink()" translate>Open Metalink File</a></li>
-                        </ul>
-                    </div><div class="btn-group">
                         <button type="submit" class="btn btn-sm"
                                 ng-class="{'btn-default': !isNewTaskValid(), 'btn-success': isNewTaskValid()}"
                                 ng-disabled="!isNewTaskValid()" translate>Download Now
