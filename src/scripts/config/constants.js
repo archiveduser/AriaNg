@@ -12,7 +12,7 @@
         languageFileExtension: '.txt',
         defaultLanguage: 'en',
         defaultHost: 'localhost',
-        defaultSecureProtocol: 'https',
+        defaultSecureProtocol: 'wss',
         defaultPathSeparator: '/',
         httpRequestTimeout: 20000,
         globalStatStorageCapacity: 120,
